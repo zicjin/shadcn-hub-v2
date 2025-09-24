@@ -78,7 +78,6 @@ at least acknowledge it with a TODO and a plan.
 
 ### Debugging & Problem Solving
 - Don't panic - read the error message carefully
-- "select" isn't broken - the problem is likely in your code
 - Reproduce issues reliably before attempting fixes
 - Fix the root cause, not symptoms
 - Add regression tests for every bug fixed
@@ -109,24 +108,19 @@ at least acknowledge it with a TODO and a plan.
 ## Governance
 
 ### Amendment Process
-- Proposed amendments must be documented with rationale
-- Changes require team consensus or designated approver
 - Breaking changes require migration plan
 - Version bump according to semantic versioning
 - Amendments must propagate to all dependent templates
 
 ### Compliance & Review
 - All code reviews must verify principle adherence
-- Quarterly principle effectiveness review
 - Exceptions must be documented with justification
-- New team members must acknowledge constitution
 - Constitution supersedes conflicting practices
 
 ### Continuous Improvement
 - Maintain a "lessons learned" log
 - Regular retrospectives to identify process improvements
 - Encourage experimentation in designated sandbox areas
-- Share knowledge through pair programming and code reviews
 - Invest in tooling that enforces principles automatically
 
 **Version**: 1.0.0 | **Ratified**: TODO(RATIFICATION_DATE): To be set when formally adopted | **Last Amended**: 2025-09-23
